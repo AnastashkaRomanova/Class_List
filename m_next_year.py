@@ -31,8 +31,3 @@ def read_base_and_write_csv_file(file_csv, fieldnames):
                         fieldnames[6]: row[fieldnames[6]], fieldnames[7]: row[fieldnames[7]], 
                         fieldnames[8]: row[fieldnames[8]]})
     print('')
-
-fieldnames = ['ID', 'Фамилия', 'Имя', 'Отчество', 'Класс', 'Литера', 'Дата_рождения', 'Номер_телефона', 'Пометка_перевода']
-file_csv = 'class2.csv'
-
-read_base_and_write_csv_file(file_csv, fieldnames)
